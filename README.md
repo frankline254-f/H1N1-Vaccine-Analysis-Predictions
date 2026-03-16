@@ -2,7 +2,7 @@
 ## Stakeholder
 ### Public Health Authorities
 ## Project Overview
-This project uses machine learning to predict whether an individual received the *H1N1 flu vaccine* based on demographic information, health behavior, opinions, and healthcare-related factors from the *National 2009 H1N1 Flu Survey* dataset.
+This project uses machine learning to predict whether an individual received the **H1N1 flu vaccine** based on demographic information, health behavior, opinions, and healthcare-related factors from the *National 2009 H1N1 Flu Survey* dataset.
 
 The goal is to help *public health authorities* understand the factors that influence vaccine uptake and support *targeted vaccination campaigns*.
 ## Problem Statement
