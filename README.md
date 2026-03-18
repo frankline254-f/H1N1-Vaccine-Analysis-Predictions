@@ -9,10 +9,10 @@ This project uses machine learning to predict whether an individual received the
 The primary goal of this project is to **predict H1N1 vaccine uptake** and identify the key factors that influence whether and individual chooses to get vaccinated.
 ## Specific Objectives
 This project aims to;
- *Identify the most important predictors of H1N1 vaccination.
- *To identify which is the best actionable recommendations for public health stakeholder.
- *To examine and explore the H1N1 survey dataset and summarize its structure.
- *To identify and compare models using appropriate classification metrics
+ * Identify the most important predictors of H1N1 vaccination.
+ * To identify which is the best actionable recommendations for public health stakeholder.
+ * To examine and explore the H1N1 survey dataset and summarize its structure.
+ * To identify and compare models using appropriate classification metrics
 ## Problem Statement
 Public health authorities need to increase vaccination uptake to reduce the spread of infectious diseases and protect vulnerable population. However, many individuals choose not to receive vaccines due to differences in beliefs, health behaviors, risk perception and access to healthcare. Without understanding which groups are less likely to vaccinate, it is diicult for health organisation to design effective outreach and vaccination campaigns.
 ## Business Understanding
