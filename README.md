@@ -3,9 +3,16 @@
 ## Stakeholder
 ### Public Health Authorities
 ## Project Overview
-This project uses machine learning to predict whether an individual received the **H1N1 flu vaccine** based on demographic information, health behavior, opinions, and healthcare-related factors from the **National 2009 H1N1 Flu Survey** dataset.
-
-The goal is to help **public health authorities** understand the factors that influence vaccine uptake and support **targeted vaccination campaigns**.
+This project uses machine learning to predict whether an individual received the **H1N1 flu vaccine** based on demographic information, health behavior, opinions, and healthcare-related factors from the **National 2009 H1N1 Flu Survey** dataset. The project focuses on understanding how demographic characteristics, health conditions, behavioral habits, opinions and healthcare access influence vaccine uptake. The analysis is designed to support **public health authorities** by identifying factors associated with vaccine acceptance and by building predictive models that can help stakeholders target populations with lower vaccination likelihood. This is a **binary classification problem** where the selected target variable is **h1n1_vaccine** whether the respondent received the H1N1 vaccine or not.
+# Project Goal
+## Main objective
+The primary goal of this project is to **predict H1N1 vaccine uptake** and identify the key factors that influence whether and individual chooses to get vaccinated.
+## Specific Objectives
+This project aims to;
+Identify the most important predictors of H1N1 vaccination.
+To identify which is the best actionable recommendations for public health stakeholder.
+To examine and explore the H1N1 survey dataset and summarize its structure.
+to identify and compare models using appropriate classification metrics
 ## Problem Statement
 Public health authorities need to increase vaccination uptake to reduce the spread of infectious diseases and protect vulnerable population. However, many individuals choose not to receive vaccines due to differences in beliefs, health behaviors, risk perception and access to healthcare. Without understanding which groups are less likely to vaccinate, it is diicult for health organisation to design effective outreach and vaccination campaigns.
 ## Business Understanding
@@ -30,10 +37,33 @@ The following preprocessing steps were performed:
 This project follows an **iterative modeling approach**, starting from a simple baseline model and improving progressively.
  -We start with **logistic regression** as the baseline model because it is simple and easy to interpret also it works well for binary classification.
  -Improved Model we used **Random Forest** Why use the Random Forest model? It often performs better than logistic regression on complex datasets, and it handles non-linear relationships well.
-## Evaluation Matrics
-Because thise is a **binary classification problem**, the following metrics were used to evaluate models on both **training** and **testing** data:
+# Model Evaluation Methodogy
+Because thise is a **binary classification problem**, models were evaluated using multiple classification metrics.
+## Metrics Used
    **Accuracy**
    **Precision**
    **Recall**
    **F1 Score**
    **Confusion Matrix**
+   ## Why use multiple metrics
+   A single metric may not fully reflect model quality especially when class distribution is imbalanced
+   ## Importance of Recall
+   Recall is especially important in this project because it helps identifying more individuals relevent for public health intervention and also it helps to avoid missing important target cases
+   ## Training vs Testing Evalution 
+   Mettrics were reviewed on both **Training data** and **Testing data**
+   # Feature Importance and interpretation
+   Using the Random Forest model, feature importance analysis was used to identify which predictors contributed most to vaccine uptake prediction.
+   # Limitation
+   This project has some limitations;
+   Several variables contain missing values
+   Survey responses may contain reporting bias
+   Results depend on chosen preprocessing and model settings
+   # Tools Used
+   ## programming language
+   **python**
+   ## Libraries 
+   pandas
+   numpy
+   matplotlib
+   seaborn
+   scikit-learn
