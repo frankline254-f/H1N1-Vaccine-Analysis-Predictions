@@ -40,11 +40,11 @@ This project follows an **iterative modeling approach**, starting from a simple 
 # Model Evaluation Methodogy
 Because thise is a **binary classification problem**, models were evaluated using multiple classification metrics.
 ## Metrics Used
-   **Accuracy**
-   **Precision**
-   **Recall**
-   **F1 Score**
-   **Confusion Matrix**
+   + **Accuracy**
+   + **Precision**
+   + **Recall**
+   + **F1 Score**
+   + **Confusion Matrix**
    ## Why use multiple metrics
    A single metric may not fully reflect model quality especially when class distribution is imbalanced
    ## Importance of Recall
